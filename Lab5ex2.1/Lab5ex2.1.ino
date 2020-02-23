@@ -8,7 +8,7 @@ void loop() {
   int Secs = 0;
   for(Secs = 0; Secs <=120; Secs++)
   {
-    if(Secs == 0 || Secs <= 10)
+    if(Secs == 0 || Secs <= 120)
     {
       digitalWrite(13,Secs%2);
       delay(1000);
